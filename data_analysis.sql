@@ -8,7 +8,21 @@ ON e.emp_no = s.emp_no;
 SELECT first_name, last_name, hire_date FROM employees
 WHERE hire_date LIKE '%1986';
 
+-- !!!NOTE TO SELF: CHECK THAT THIS WORKED!!!
 -- List the manager of each department along with their department number, department name, employee number, last name, and first name.
+	-- Join first two files
+CREATE VIEW dept_names_and_managers AS
+SELECT dm.dept_no, d.dept_name, dm.emp_no FROM dept_manager AS dm
+JOIN departments AS d
+ON dm.dept_no = d.dept_no;
+
+	-- Look at the joined table
+SELECT * from dept_names_and_managers;
+
+	-- Get employee names from employees table and include:
+SELECT dm.dept_no, dm.dept_name, dm.emp_no, e.last_name, e.first_name FROM dept_names_and_managers AS dm
+JOIN employees AS e
+ON dm.emp_no = e.emp_no;
 
 -- List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
