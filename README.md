@@ -1,5 +1,6 @@
 # sql-challenge
 -----
+![Employee_Selection](https://cdn.pixabay.com/photo/2019/10/01/16/00/choice-4518660_960_720.png)
 ## Project Description
 The goal of this project was to analyze information about employees of Pewlett-Hackard, a dubiously named computer company. pgAdmin was used to create tables based on the six remaining CSV files from employees in the time period of interest, which were then analyzed using SQL queries to display important information requested from stakeholders.
 
