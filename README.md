@@ -5,8 +5,8 @@ The goal of this project was to analyze information about employees of Pewlett-H
 
 ### Table of Contents
 -- Need to figure out the links!
-[1. Data Engineering] (#data_eng)
-[2. Data Analysis] (#data_analysis)
+[1. Data Engineering](https://github.com/jonnybrammah/sql-challenge/blob/main/README.md#data-engineering)
+[2. Data Analysis](https://github.com/jonnybrammah/sql-challenge/blob/main/README.md#data-analysis)
 
 #### Data Engineering
 
